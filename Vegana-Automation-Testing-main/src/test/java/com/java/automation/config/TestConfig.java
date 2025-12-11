@@ -35,7 +35,7 @@ public class TestConfig {
     }
 
     public static int getImplicitWait() {
-        return Integer.parseInt(properties.getProperty("implicit.wait", "10"));
+        return Integer.parseInt(properties.getProperty("implicit.wait", "13"));
     }
 
     public static int getPageLoadTimeout() {
